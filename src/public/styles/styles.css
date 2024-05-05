@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppings', sans-serif;
+}
+
+body {
+    background-color: #1c1d2c;
+}
+
+.login-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    justify-content: center;
+    background-color: #1c1d2c;
+}
+
+.logo {
+    background: url(../images/COMUNIDADE_MDG_PNG.webp) no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 60px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    height: 100%;
+}
+
+.nav-link {
+    padding: 5px;
+    transition: 0.3s;
+}
+.nav-link > a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 0.2s;
+}
+
+.nav-link > a:hover {
+    background-color: #0e0f16;
+}
+
+.nav-buttons-container {
+    display: flex;
+    gap: 20px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.login-button {
+    padding: 10px;
+    background-color: #333450;
+    color: white;
+    border: 1px solid rgb(87, 85, 85);
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.login-button:hover {
+    cursor: pointer;
+    background-color: #1c1d2c;
+}
+
+.register-button {
+    padding: 10px;
+    background-color: #3ec76c;
+    color: white;
+    border: 1px solid rgb(87, 85, 85);
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.register-button:hover {
+    cursor: pointer;
+    background-color: #309c54;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+}
+
+.main-section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    width: 50%;
+    height: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main-title {
+    align-self: flex-end;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    text-wrap: pretty;
+    color: white;
+}
+
+.main-buttons-container {
+    display: flex;
+    gap: 20px;
+    margin: 25px;
+    align-items: center;
+}
+
+.discord-logo {
+    width: 150px;
+}
+
+.login-section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 60%;
+}
+
+.login-title {
+    align-self: center;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    text-wrap: pretty;
+    color: white;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-input {
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid rgb(87, 85, 85);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.login-submit {
+    padding: 10px;
+    background-color: #270cc0;
+    color: white;
+    border: 1px solid rgb(87, 85, 85);
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.login-submit:hover {
+    cursor: pointer;
+    background-color: #0c1883;
+}
+.login-fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(87, 85, 85);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
